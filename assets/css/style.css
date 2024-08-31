@@ -260,7 +260,11 @@ h6 {
   position: relative;
   z-index: 2;
   min-width: 300px;
+  
 }
+/* .hero-container{
+  margin-left: -15em;
+} */
 
 #hero h1 {
   margin: 0 0 10px 0;
@@ -300,6 +304,13 @@ h6 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-container{ margin-left: 0 !important;}
+  #hero{
+    background-position-x: 45em;
   }
 }
 
@@ -1102,5 +1113,16 @@ section {
     position: static;
     width: auto;
     padding-right: 20px 15px;
+  }
+  .hero-container{
+    margin-right: 3em !important;
+    float: none !important;
+  }
+}
+
+@media (min-width: 1199px) {
+  .hero-container{
+    margin-right: 30% !important;
+    float: left !important;
   }
 }
