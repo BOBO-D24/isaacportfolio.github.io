@@ -1,17 +1,12 @@
-/**
-* Template Name: iPortfolio
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Updated: Mar 17 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #272829;
+  /* color: #272829; */
+  color: white;
+  background-color: #2a2a2a;
 }
 
 a {
@@ -31,6 +26,9 @@ h4,
 h5,
 h6 {
   font-family: "Raleway", sans-serif;
+}
+.bx{
+  color: white;
 }
 
 /*--------------------------------------------------------------
@@ -136,6 +134,7 @@ h6 {
   padding-left: 30px;
   padding-right: 30px;
 }
+
 
 @media (max-width: 1199px) {
   #header {
@@ -260,7 +259,7 @@ h6 {
   position: relative;
   z-index: 2;
   min-width: 300px;
-  
+  margin-top: 30em;
 }
 /* .hero-container{
   margin-left: -15em;
@@ -324,6 +323,7 @@ section {
 
 .section-bg {
   background: #f5f8fd;
+  color: #040b14;
 }
 
 .section-title {
@@ -336,7 +336,8 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #173b6c;
+  /* color: #173b6c; */
+  /* color: white; */
 }
 
 .section-title h2::after {
@@ -414,7 +415,8 @@ section {
   line-height: 40px;
   display: block;
   font-weight: 700;
-  color: #050d18;
+  /* color: #050d18; */
+  color: white;
   margin-left: 60px;
 }
 
@@ -423,7 +425,8 @@ section {
   margin: 0 0 0 60px;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
-  color: #122f57;
+  /* color: #122f57; */
+  color: white;
 }
 
 .facts .count-box a {
@@ -485,7 +488,8 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #050d18;
+  /* color: #050d18; */
+  color: white;
 }
 
 .resume .resume-item {
@@ -501,13 +505,14 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #050d18;
+  /* color: #050d18; */
+  color: white;
   margin-bottom: 10px;
 }
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #e4edf9;
+  /* background: #e4edf9; */
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -553,6 +558,7 @@ section {
   background: #fff;
   border-radius: 50px;
   padding: 2px 15px;
+  color: #040b14;
 }
 
 .portfolio #portfolio-flters li {
@@ -610,7 +616,8 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
-  color: #fff;
+  /* color: #fff; */
+  color: #040b14;
   font-size: 28px;
   text-align: center;
   background: rgba(20, 157, 221, 0.75);
@@ -746,7 +753,7 @@ section {
 }
 
 .services .title a {
-  color: #343a40;
+  /* color: #343a40; */
 }
 
 .services .title a:hover {
